@@ -146,6 +146,7 @@ void Game::Run()
 {
 	if (!Initialize())
 	{
+		Finalize();
 		return;
 	}
 
